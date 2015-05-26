@@ -6,4 +6,4 @@ The interactive user interfaces in modified source and object code versions of t
 
 In accordance with Section 7(b) of the GNU Affero General Public License, a covered work must retain the producer line in every PDF that is created or manipulated using GlueSigner.
 
-For more information, please contact iText Glue Software Engineering AG at this address: info@glue.ch
+For more information, please contact Glue Software Engineering AG at this address: info@glue.ch
