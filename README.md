@@ -7,4 +7,4 @@ GlueSigner was a Bacheleor Thesis in 2014 supported by Glue Software Engineering
 GlueSigner enables the signing functionality for mobile devices running Android OS.
 
 ## Additional Information
-The documentation to the Bachelor Thesis is not published here. Please contact Glue Software ENgeneering AG to obtain the documentation: info@glue.ch
+The documentation of the Bachelor Thesis is not published here. Please contact Glue Software Engeneering AG to obtain the documentation: info@glue.ch
