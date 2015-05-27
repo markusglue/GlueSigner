@@ -10,6 +10,9 @@ The documentation of the Bachelor Thesis is not published here. Please contact G
 
 ## Licensing
 The used AndroidPDF viewer library from https://github.com/jblough/Android-Pdf-Viewer-Library is licensed under LGPL v2.1.
-Code from the creators of the Bachelor Thesis is licensed under the AGPL v3.
+
+Code from the authors of the Bachelor Thesis is licensed under the AGPL v3.
 
 ## Project Overview
+The directory AndroidGlueSigner contains an eclipse project.
+To get a working project you need the Android ADT plugin for eclipse. You additionally have to install an android SDK, the recommended API version for AndroidGlueSigner is 19.
