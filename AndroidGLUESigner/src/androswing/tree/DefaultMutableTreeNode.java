@@ -21,8 +21,6 @@
 * For more information, please contact Glue Software Engineering AG at this address: info@glue.ch
 */
 
-package
-
 package androswing.tree;
 
 import java.util.ArrayList;
