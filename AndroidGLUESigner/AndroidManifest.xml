@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="androidGLUESigner.ui"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:name="android.hardware.usb.host" />      
+    
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.reinersct.permission.CYBERJACK"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />   
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="PDFViewer" android:noHistory="true"/>
+        <activity android:name="FragmentActivity"/>
+        <activity android:name="SignedDocActivity"/>
+        <activity android:name="WizardActivity">
+              <intent-filter>
+        		<action android:name="android.intent.action.VIEW" />
+        		<action android:name="android.intent.action.SEND" />
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<category android:name="android.intent.category.BROWSABLE" />
+        		<data android:mimeType="application/pdf" />
+    		</intent-filter>     
+        </activity>
+        <activity android:name ="androidGLUESigner.crypto.connection.SuisseIDUSBActivity"/>        
+    </application>
+</manifest>
+

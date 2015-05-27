@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main activity -->
+    <string name="app_name">GLUESigner</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_documents">Document</string>
+    <string name="action_wizard">Sign</string>
+    <string name="header_text">PDF Signing Application</string>
+    <string name="title_activity_wizard">WizardActivity</string>
+    <string name="hello_text">Welcome to GLUESigner!\r\n\r\nSign PDFs anywhere with your SuisseID or your custom p12 certificate.</string>
+	<string-array name="pref_variant_entries">
+	    <item>Bouncy Castle</item>
+	</string-array>
+	<integer-array name="pref_variant_values">
+	    <item>0</item>
+	</integer-array>
+	<integer name="default_pref_variant">0</integer>
+	
+	<!-- validations -->
+	<string name="siginfo_name_error"> Name is too short</string>
+	<string name="siginfo_reason_error"> Reason is too short </string>
+	<string name="siginfo_location_error"> Location is too short</string>
+	<!-- legend in main screen -->
+	<string name="sdoc_list">Signed Documents</string>
+    <string name="edit_desc">Sign PDF document</string>
+    <string name="list_desc">Manage signed documents</string>
+    <string name="settings_desc">Global settings</string>
+
+	<!-- firs-time-setup -->
+	<string name="first_time_setup">First time setup:</string>
+    <string name="sigdefs"> Signature defaults</string>
+    <string name="signame_s"> Name</string>
+    <string name="sigreason_s"> Reason</string>
+    <string name="sigloc_s"> Location</string>
+    <string name="sigimg_s"> Signature Image</string>
+    <string name="storageloc_s"> Storage directory</string>
+    <string name="pick_tsa"> Pick a timestamp server</string>
+    <string name="ud_new_defaults">Please enter the new defaults:</string>
+    <string name="ud_select_image">Select Picutre</string>
+    
+    <!-- preferences panel -->
+    <string name="select_directory">Select directory</string>
+	<string name="selected_file">Selected file </string>
+	<string name="select_pdf_file">Select PDF file to sign</string>
+	<string name="change_picture">Change Picture</string>   	
+    <!-- timestamp server data -->
+	<string-array name="tsaurl">
+        <item>Swisssign</item>
+        <item>Quovadis</item>
+        <item>BIT</item>
+    </string-array>
+     <string-array name="tsaurl_values">
+        <item>http://tsa.swisssign.net/</item>
+        <item>http://tsa01.quovadisglobal.com/TSS/HttpTspServer</item>
+        <item>http://tsa.pki.admin.ch/tsa</item>
+    </string-array>
+    <string name="suissesign_tsa">http://tsa.swisssign.net/</string>
+    
+    <!-- SuisseID USB Activity -->
+    <string name="sid_act_title">SuisseID USB</string>
+    <string name="usb_permission_denied">Permission denied for device</string>
+    <string name="usb_opening_reader">Opening reader: </string>
+    <string name="usb_closing_reader">Closing reader&#8230;</string>
+    <string name="usb_reader_name">Reader name: </string>
+    <string name="usb_suisseid_pin">SuisseID PIN</string>
+    <string name="usb_data_signed">Data Signed.</string>
+    <string name="usb_received_certificate">Retrieved certificate </string>
+    <string name="usb_error_pub_cert">The collecting of the public certificates failed.</string>
+    <string name="usb_chain_retrieved">Certificate chain retrieved </string>
+    <string name="usb_login_successful">Login to SuisseID successful</string>
+    <string name="usb_login_failed">Login to SuisseID FAILED! Please check for locked SuisseID</string>
+    <string name="usb_no_internet">No Internet connection found, continuing without Timestamp</string>   
+    <string name="sid_activity_open">Open</string>
+    <string name="sid_activity_close">Close</string>
+    <string name="sid_activity_initUSB">Init SuisseID</string>
+    
+    <!-- BC Activity -->
+    <string name="bc_passphrase_dialog">Certificate Passphrase:</string>
+    <string name="bc_current_cert">Current Certificate:</string>
+    <string name="bc_choose_cert_file">Choose certificate file:</string>    
+    <string name="bc_choose">Choose</string>   
+    <string name="bc_import">Import&#8230;</string>
+    <string name="bc_choose_cert">Please choose a certficate or import one</string>
+    <string name="bc_cert_pass">Certificate Passphrase</string>
+    
+    <!-- PDF Viewer -->
+    <string name="page_number">Page number:</string>
+    <string name="filename">Filename</string>    
+    <string name="jump_page">Jump to page</string>
+    <string name="send_pdf">Send PDF to:</string>
+    <string name="preview_pdf"> PDF Preview</string>        
+	<string name="rect_text_name">Name:</string>
+    <string name="rect_text_reason">Reason:</string>
+	<string name="rect_text_location">Location:</string>	
+	<string name="pdf_loading">Loading PDF Page</string>
+	<string name="loading">Loading&#8230;</string>
+	
+	<!-- dialogs -->
+    <string name="signature_placement">Signature Placement</string>
+    <string name="sigmethodtitle">Choose signature method</string>
+    <string name="sig_p12">Sign with P12 Certificate</string>	
+    <string name="sig_sid">Sign with SuisseID USB</string>   
+    <string name="cancel_button">Cancel</string>
+    <string name="sign_button">Sign</string>
+    <string name="saptitle">Choose signature type</string>
+    <string name="invisible">Invisible</string>
+	<string name="visible">Visible</string>
+	<string name="withpicture">With Picture</string>
+	<string name="invisible_sig">(invisible signature)</string>
+    <string name="sig_field_edit">Change Details</string>
+    <string name="step_done">DONE</string>    
+</resources>

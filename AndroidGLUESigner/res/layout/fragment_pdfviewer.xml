@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pdfviewer_mainlayout">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 	<ImageButton
+       android:id="@+id/pdfzoomout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zoom_out" />
+
+    <ImageButton
+        android:id="@+id/pdfzoomin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zoom_in" />
+
+    <ImageButton
+        android:id="@+id/pdfleftarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/left_arrow" />
+
+    <TextView
+        android:id="@+id/pdfpagenum"
+        android:layout_width="120px"
+        android:textSize="22sp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/pdfrightarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right_arrow" />
+
+    <ImageButton
+        android:id="@+id/pdfsignature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select_rect_button" />
+    
+    <ImageButton
+        android:id="@+id/sigfieldeditbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sigfieldedit"
+        android:visibility="gone"
+       />
+    
+    <ImageButton
+      android:id="@+id/shareButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_action_share"
+      android:visibility="invisible"
+    />
+    
+
+    </LinearLayout>
+</RelativeLayout>

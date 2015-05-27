@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+            <TableRow>
+                <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/certChooseTextView"
+                android:text="@string/bc_current_cert"/>
+                <Button  android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/certChooseButton"
+                android:text="@string/bc_choose"/> />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="20dp">
+              <Button android:id="@+id/certSignButton" android:layout_gravity="center_horizontal"
+                  android:layout_weight="1"
+                  android:text="@string/sign_button" android:enabled="false"/>
+                          </TableRow>
+       </TableLayout>
+</LinearLayout>
