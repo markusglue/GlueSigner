@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" >
+<PreferenceCategory android:title="@string/sigdefs">
+	<EditTextPreference android:key="sig_name"
+    android:title="@string/signame_s"/>
+	<EditTextPreference android:key="sig_reason"
+    android:title="@string/sigreason_s"/>
+	<EditTextPreference android:key="sig_location"
+    android:title="@string/sigloc_s"/>
+	<Preference android:key="sig_imgpath"
+    android:title="@string/sigimg_s"/>
+</PreferenceCategory>	
+<PreferenceCategory android:title="@string/system_configuration">
+        <ListPreference
+            android:title="@string/pick_tsa"
+            android:key="sig_tsaurl"
+            android:defaultValue="http://tsa.swisssign.net/"
+            android:entries="@array/tsaurl"
+            android:entryValues="@array/tsaurl_values" />
+        	<Preference android:key="sig_out_dir"
+    		android:title="@string/storageloc_s"
+    		android:defaultValue="/PDF"/>
+</PreferenceCategory>
+</PreferenceScreen>

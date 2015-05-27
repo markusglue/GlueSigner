@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="Android API 19 Platform" jdk_type="Android SDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="pdfviewerlibrary.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/pdfviewerlibrary.jar!/"/>
+	</lib>
+	<lib name="droidText.0.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/droidText.0.2.jar!/"/>
+	</lib>
+	<levels>
+		<level name="pdfviewerlibrary" value="project"/>
+		<level name="droidText.0.2" value="project"/>
+	</levels>
+</component>

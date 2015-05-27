@@ -1,0 +1,33 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+<TableRow android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    	<!-- filename -->
+    <TextView
+          android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_weight="1"
+       android:id="@+id/textViewPassPhrase"
+        android:text="@string/bc_passphrase_dialog"/>
+    </TableRow>
+    <TableRow>
+
+    <EditText
+        android:id="@+id/bc_cert_passphrase"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        android:text="" />
+
+</TableRow>
+</TableLayout>
+
+  	
+</LinearLayout>
+
